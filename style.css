@@ -1,0 +1,73 @@
+body {
+    background-color: #eef1f6;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    height: 100vh;
+}
+
+.pas-form {
+    display: flex;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 10px 5px 5px rgb(110, 110, 110);
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.input {
+    height: 50px;
+    margin: 50px auto 10px auto;
+}
+
+.title {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: rgb(72, 72, 72);
+}
+
+.button {
+    margin: 15px auto 50px auto;
+}
+
+.text-button {
+    padding: 10px 85px;
+    background-color: #0192ff;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+
+.message {
+    color: red;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px; 
+} 
+
+.message2 {
+    position: absolute;
+    color: green;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px; 
+}
+
+.text-button:hover {
+    background-color: #0473c7;
+}
+
+.xz {
+    justify-content: center;
+    display: flex;
+    height: 14.4px;
+}
